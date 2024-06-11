@@ -173,6 +173,12 @@ Here are some of the most important Docker commands you'll need for day-to-day D
    ```
    - Lists all Docker volumes.
 
+### Diff between docker 
+
+- Use **`RUN`** for commands that need to modify the image at build time.
+- Use **`CMD`** to define the default command and arguments that will run when the container starts.
+- Combine **`ENTRYPOINT` and `CMD`** for more flexible and controlled runtime behaviors.
+
 ### Summary
 
 - **Dockerfile:** A scripted file containing instructions to build a Docker image.
