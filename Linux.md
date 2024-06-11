@@ -78,7 +78,25 @@
    - Protocol for sending emails.
 
 6. **HTTP/2:**
-   - Understand enhancements over HTTP/1.1.
+   - Understand enhancements over HTTP/1.1
+     
+### Telnet Overview
+
+**Telnet (TELecommunication NETwork)** is a network protocol used to provide a command-line interface for communicating with a remote device or server. Historically, Telnet was widely used to manage network devices and servers over a network.
+
+### Characteristics of Telnet:
+
+1. **Port Number:** 
+   - Telnet usually operates on port 23.
+
+2. **Plain Text Communication:**
+   - Telnet transmits data in plain text, meaning that all commands and responses (including passwords) are sent over the network unencrypted. This presents serious security risks.
+
+3. **Interactivity:**
+   - Allows users to interact with the remote server as though they are directly connected to the local machine's terminal.
+
+4. **Obsolescence:** 
+   - Due to security issues, Telnet has largely been replaced by Secure Shell (SSH), which encrypts the data transmitted over the network.
 
 ### Configuration Management and Automation Tools:
 While you're focusing on Linux and protocols, it's also beneficial to understand tools commonly used in DevOps:
