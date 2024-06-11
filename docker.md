@@ -172,7 +172,11 @@ Here are some of the most important Docker commands you'll need for day-to-day D
    docker volume ls
    ```
    - Lists all Docker volumes.
-
+5. **Docker Prune:**
+    ```bash
+    docker system prune
+    ```
+    - It’s a command used to remove all stopped containers, unused networks, build caches, and dangling images. Prune is one of the most useful commands in Docker.
 ### Diff between docker RUN and CMD
 
 - Use **`RUN`** for commands that need to modify the image at build time.
